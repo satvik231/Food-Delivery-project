@@ -1,0 +1,269 @@
+.custom-card {
+  width: 100%;
+  max-width: 200px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.font {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+}
+
+.custom-card img {
+  /* border-radius: 10px; */
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.custom-card img:hover {
+  opacity: 0.5;
+}
+
+.cuisines {
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.imgscroll {
+  overflow: scroll hidden;
+  scrollbar-width: none;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.shadow {
+  box-shadow: 0px 0px 2px 0px #d5d5d5;
+}
+
+.border {
+  box-shadow: 0px 0px 0.5px 0px;
+}
+
+.custom {
+  font-weight: 700;
+}
+
+.textCustom {
+  position: absolute;
+  /* font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.92);
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+   */
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.92);
+  overflow: hidden;
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: grid;
+  align-content: end;
+  border-radius: 10px;
+  background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 50%);
+  margin-top: 125px;
+  margin-left: 7px;
+
+}
+
+.imgContainer,
+.nameContainer,
+.cuisineContainer,
+.areaContainer,
+.ratingContainer,
+.timeContainer {
+  width: 100%;
+  background-color: rgb(235, 233, 233);
+  height: 10px;
+
+}
+
+.imgContainer {
+  height: 150px;
+}
+
+.ratingContainer,
+.timeContainer {
+  width: 40px;
+}
+
+.Shimmer {
+  width: 100%;
+  height: 243px;
+  background-color: rgb(37, 37, 59);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.errortext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filterbutton{
+  border-radius: 50px;
+  border: 0.5px solid #d8d6d6;
+  background-color: #fff;
+  color: #4d4b4b;
+  font-weight:600;
+  padding: 5px 15px 5px 15px;
+}
+
+.expFooter {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 104px;
+  background-color: rgb(240, 240, 245);
+  max-height: 400px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 34px;
+
+}
+
+.texted1 {
+  display: block;
+  width: 408px;
+  margin: auto 96px auto 0px;
+  max-height: 64px;
+}
+
+.texted2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: rgba(2, 6, 12, 0.75);
+}
+
+.texted3 {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin: auto 8px;
+  height: 64px;
+}
+
+.texted3 img {
+  height: 64px;
+  max-width: 208px;
+  object-fit: cover;
+  margin: auto 12px;
+}
+
+.footer {
+  padding: 0 20px;
+  /* z-index: 10; */
+  background-color: #000;
+  min-height: 298px;
+  width: 100%;
+  color: #fff;
+  overflow: scroll;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+  justify-content: space-around;
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 76px 0;
+  height: 100%;
+}
+
+.points {
+  color: #808080;
+  font-size: 15px;
+  font-weight: 600;
+  /*    border: 1px solid white;*/
+  width: 300px;
+  margin: 26px 0px 10px 15px;
+
+  /*    padding: 15px 0px 0px 0px;*/
+}
+
+.Labelfont {
+  margin-left: 80px;
+}
+
+.footer-li {
+  padding: 20px 10px 2px 0px;
+  margin-left: 50px;
+}
+
+.footer-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-li a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer-li a:hover {
+  font-weight: 600;
+}
+
+.points img {
+  border: 2px solid #808080;
+  padding: 10px;
+  margin: 30px 0px 10px 57px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.points img:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+.box{
+  border-bottom: 1px solid #a09f9f;
+}
+
+.boxbottom{
+  margin-bottom: 25px;
+}
+.adjust{
+  width: 73%;
+}
+
+.Thumbnail{
+  position: relative;
+}
+.Thumbnail button{
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media only screen and (min-width: 768px){
+
+}

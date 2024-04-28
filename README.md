@@ -37,4 +37,4 @@ Contributions to the project are welcome! If you have any ideas for improvements
 
 Special thanks to Swiggy for providing access to their API, which greatly enhances the functionality of this application. We also appreciate the contributions of all developers who have helped improve this project.
 
-For any questions or issues, please contact [Project Maintainer Name/Email]. Thank you for using our Food Delivery App! 🍔🚀
+For any questions or issues, please contact satvikkamble95@gmail.com. Thank you for using our Food Delivery App! 🍔🚀
